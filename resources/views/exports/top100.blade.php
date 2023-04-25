@@ -1,0 +1,24 @@
+<table>
+    <thead>
+        <tr>
+            <th>Alumno</th>
+            <th>Email</th>
+            <th>Puntos</th>
+            <th>%</th>
+            <th>Grupo</th>
+            <th>Maestro</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach($top100 as $row)
+        <tr>
+            <td>{{$row->alumno_nombre}}</td>
+            <td>{{$row->alumno_email}}</td>
+            <td>{{$row->suma_puntos}}</td>
+            <td>{{$row->avance}}</td>
+            <td>{{$row->grupo_nombre}}</td>
+            <td>{{$row->maestro_nombre}}</td>
+        </tr>
+        @endforeach
+    </tbody>
+</table>
