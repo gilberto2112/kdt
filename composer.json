@@ -8,7 +8,7 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^3.0",
+        "php": "^7.3.0",
         "ali-awwad/create-relation-on-resource": "^0.0.1",
         "awesome-nova/tool-actions": "^0.2.0",
         "barryvdh/laravel-dompdf": "^0.8.5",
